@@ -1,11 +1,11 @@
+drop table if exists nota_fiscal_roupas;
 drop table if exists cartao_loja;
+drop table if exists nota_fiscal;
 drop table if exists clientes;
 drop table if exists enderecos;
 drop table if exists cidades;
-drop table if exists nota_fiscal_roupas;
-drop table if exists nota_fiscal;
-drop table if exists roupas;
 drop table if exists categorias;
+drop table if exists roupas;
 
 create table cidades(
     id serial primary key,
@@ -36,7 +36,6 @@ create table clientes(
     constraint fk_id_endereco_to_clientes foreign key (id_endereco) references enderecos(id) 
 );
 
-
 create table cartao_loja(
     id serial primary key,
     nome_titular varchar(100) not null,
@@ -53,7 +52,7 @@ create table nota_fiscal(
     emissao date not null,
     numero varchar(10) not null,
     id_cliente int not null,
-    constraint fk_id_cliente_to_nota_fiscal foreign key (id_cliente) references nota_fiscal(id) 
+    constraint fk_id_cliente_to_nota_fiscal foreign key (id_cliente) references clientes(id) 
 );
 
 create table categorias(
