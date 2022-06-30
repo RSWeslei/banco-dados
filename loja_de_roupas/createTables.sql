@@ -69,7 +69,7 @@ create table roupas(
     preco_venda numeric(15, 2) not null,
     preco_compra numeric(15, 2) not null,
     id_categoria int not null,
-    constraint fk_id_categoria_to_roupas foreign key (id_categoria) references roupas(id)
+    constraint fk_id_categoria_to_roupas foreign key (id_categoria) references categorias(id)
 );
 
 create table nota_fiscal_roupas(
