@@ -2,7 +2,7 @@ INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALU
 INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (1, 79.95, 7, 2);
 INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (5, 83.81, 22,4);
 INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (3, 84.52, 3, 4);
-INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (1, 68.49, 22,3);
+INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (1, 68.49, 22, 3);
 INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (1, 102.36,9, 3);
 INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (3, 73.50, 12,1);
 INSERT INTO nota_fiscal_roupas(quantidade, valor, id_nota_fiscal, id_roupa) VALUES (2, 57.11, 2, 1);
