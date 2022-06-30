@@ -55,7 +55,7 @@ create table nota_fiscal(
     constraint fk_id_cliente_to_nota_fiscal foreign key (id_cliente) references clientes(id) 
 );
 
-create table categorias(
+create table categorias(    
     id serial primary key,
     nome varchar(50) not null
 );
