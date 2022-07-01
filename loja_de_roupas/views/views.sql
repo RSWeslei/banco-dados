@@ -32,7 +32,7 @@ select
     e.cep,
     cd.nome as cidade
 from enderecos as e
-inner join clientes as c on (e.id = c.id_endereco)
+inner join clientes as c on (e.id = c.id_endereco)  
 inner join cidades as cd on (e.id_cidade = cd.id)
 order by c.nome;
 
@@ -46,7 +46,7 @@ select
     cl.numero, cl.cvv, 
     cl.vencimento 
 from clientes as c
-inner join cartao_loja as cl on (c.id = cl.id_cliente)
+inner join cartao_loja as cl on (c.id = cl.id_cliente);
 
 select * from vw_clientes_cartoes;
 --------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ select
     c.nome, 
     c.nascimento from clientes as c
 where 
-EXTRACT(day from c.nascimento + 8) = EXTRACT(day from now()) and
+EXTRACT(day from c.nascimento) = EXTRACT(day from now()) and
 EXTRACT(month from c.nascimento) = EXTRACT(month from now());
 
 select * from vw_aniversariantes;
@@ -84,7 +84,7 @@ select
     r.marca, 
     c.nome as categoria
 from roupas as r
-inner join categorias as c on (r.id_categoria = c.id)
+inner join categorias as c on (r.id_categoria = c.id);
 
 select * from vw_listar_roupas;
 ----------------------------------------------------------------------------------
@@ -95,4 +95,4 @@ drop view vw_enderecos_clientes;
 drop view vw_notas_fiscais;
 drop view vw_produtos_vendidos;
 drop view vw_produtos_vendidos_lucro;
-drop vw_listar_roupas;
+drop view vw_listar_roupas;
