@@ -1,11 +1,11 @@
 drop table if exists nota_fiscal_roupas;
-drop table if exists cartao_loja;
 drop table if exists nota_fiscal;
+drop table if exists cartao_loja;
 drop table if exists clientes;
 drop table if exists enderecos;
 drop table if exists cidades;
-drop table if exists categorias;
 drop table if exists roupas;
+drop table if exists categorias;
 
 create table cidades(
     id serial primary key,
@@ -66,8 +66,8 @@ create table roupas(
     cor varchar(40) not null,
     tamanho varchar(20),
     marca varchar(50),
-    preco_venda numeric(15, 2) not null,
-    preco_compra numeric(15, 2),
+    preco_venda numeric(15, 2),
+    preco_compra numeric(15, 2) not null,
     lucro_porcentagem numeric(10, 4) not null,
     id_categoria int not null,
     constraint fk_id_categoria_to_roupas foreign key (id_categoria) references categorias(id)

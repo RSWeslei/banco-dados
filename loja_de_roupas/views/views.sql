@@ -74,3 +74,24 @@ EXTRACT(month from c.nascimento) = EXTRACT(month from now());
 
 select * from vw_aniversariantes;
 --------------------------------------------------------------------------------
+drop view if exists vw_listar_roupas;
+create or replace view vw_listar_roupas as
+select 
+    r.id, 
+    r.nome,
+    r.cor, 
+    r.tamanho, 
+    r.marca, 
+    c.nome as categoria
+from roupas as r
+inner join categorias as c on (r.id_categoria = c.id)
+
+select * from vw_listar_roupas;
+----------------------------------------------------------------------------------
+
+drop view vw_aniversariantes;
+drop view vw_clientes_cartoes;
+drop view vw_enderecos_clientes;
+drop view vw_notas_fiscais;
+drop view vw_produtos_vendidos;
+drop view vw_produtos_vendidos_lucro;

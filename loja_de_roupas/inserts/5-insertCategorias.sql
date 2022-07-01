@@ -1,0 +1,17 @@
+INSERT INTO categorias(nome) VALUES ('Chapéus');
+INSERT INTO categorias(nome) VALUES ('Sapatos');
+INSERT INTO categorias(nome) VALUES ('Meias');
+INSERT INTO categorias(nome) VALUES ('Pijamas');
+INSERT INTO categorias(nome) VALUES ('Sandálias');
+INSERT INTO categorias(nome) VALUES ('Saias');
+INSERT INTO categorias(nome) VALUES ('Calças jeans');
+INSERT INTO categorias(nome) VALUES ('Roupões');
+INSERT INTO categorias(nome) VALUES ('Gravatas');
+INSERT INTO categorias(nome) VALUES ('Bermudas');
+INSERT INTO categorias(nome) VALUES ('Roupas de baixo');
+INSERT INTO categorias(nome) VALUES ('Camisetas');
+INSERT INTO categorias(nome) VALUES ('Vestidos');
+INSERT INTO categorias(nome) VALUES ('Calças');
+INSERT INTO categorias(nome) VALUES ('Jaquetas');
+INSERT INTO categorias(nome) VALUES ('Botas');
+INSERT INTO categorias(nome) VALUES ('Blusas');
