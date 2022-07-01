@@ -5,7 +5,7 @@
 -- Dumped from database version 14.4 (Ubuntu 14.4-1.pgdg22.04+1)
 -- Dumped by pg_dump version 14.4 (Ubuntu 14.4-1.pgdg22.04+1)
 
--- Started on 2022-06-30 14:24:20 -03
+-- Started on 2022-07-01 14:42:18 -03
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -23,7 +23,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- TOC entry 216 (class 1259 OID 18018)
+-- TOC entry 216 (class 1259 OID 18295)
 -- Name: cartao_loja; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -40,7 +40,7 @@ CREATE TABLE public.cartao_loja (
 ALTER TABLE public.cartao_loja OWNER TO postgres;
 
 --
--- TOC entry 215 (class 1259 OID 18017)
+-- TOC entry 215 (class 1259 OID 18294)
 -- Name: cartao_loja_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -56,7 +56,7 @@ CREATE SEQUENCE public.cartao_loja_id_seq
 ALTER TABLE public.cartao_loja_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3440 (class 0 OID 0)
+-- TOC entry 3475 (class 0 OID 0)
 -- Dependencies: 215
 -- Name: cartao_loja_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -65,7 +65,7 @@ ALTER SEQUENCE public.cartao_loja_id_seq OWNED BY public.cartao_loja.id;
 
 
 --
--- TOC entry 220 (class 1259 OID 18042)
+-- TOC entry 220 (class 1259 OID 18319)
 -- Name: categorias; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -78,7 +78,7 @@ CREATE TABLE public.categorias (
 ALTER TABLE public.categorias OWNER TO postgres;
 
 --
--- TOC entry 219 (class 1259 OID 18041)
+-- TOC entry 219 (class 1259 OID 18318)
 -- Name: categorias_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -94,7 +94,7 @@ CREATE SEQUENCE public.categorias_id_seq
 ALTER TABLE public.categorias_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3441 (class 0 OID 0)
+-- TOC entry 3476 (class 0 OID 0)
 -- Dependencies: 219
 -- Name: categorias_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -103,7 +103,7 @@ ALTER SEQUENCE public.categorias_id_seq OWNED BY public.categorias.id;
 
 
 --
--- TOC entry 210 (class 1259 OID 17980)
+-- TOC entry 210 (class 1259 OID 18257)
 -- Name: cidades; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -117,7 +117,7 @@ CREATE TABLE public.cidades (
 ALTER TABLE public.cidades OWNER TO postgres;
 
 --
--- TOC entry 209 (class 1259 OID 17979)
+-- TOC entry 209 (class 1259 OID 18256)
 -- Name: cidades_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -133,7 +133,7 @@ CREATE SEQUENCE public.cidades_id_seq
 ALTER TABLE public.cidades_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3442 (class 0 OID 0)
+-- TOC entry 3477 (class 0 OID 0)
 -- Dependencies: 209
 -- Name: cidades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -142,7 +142,7 @@ ALTER SEQUENCE public.cidades_id_seq OWNED BY public.cidades.id;
 
 
 --
--- TOC entry 214 (class 1259 OID 18001)
+-- TOC entry 214 (class 1259 OID 18278)
 -- Name: clientes; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -161,7 +161,7 @@ CREATE TABLE public.clientes (
 ALTER TABLE public.clientes OWNER TO postgres;
 
 --
--- TOC entry 213 (class 1259 OID 18000)
+-- TOC entry 213 (class 1259 OID 18277)
 -- Name: clientes_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -177,7 +177,7 @@ CREATE SEQUENCE public.clientes_id_seq
 ALTER TABLE public.clientes_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3443 (class 0 OID 0)
+-- TOC entry 3478 (class 0 OID 0)
 -- Dependencies: 213
 -- Name: clientes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -186,7 +186,7 @@ ALTER SEQUENCE public.clientes_id_seq OWNED BY public.clientes.id;
 
 
 --
--- TOC entry 212 (class 1259 OID 17987)
+-- TOC entry 212 (class 1259 OID 18264)
 -- Name: enderecos; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -204,7 +204,7 @@ CREATE TABLE public.enderecos (
 ALTER TABLE public.enderecos OWNER TO postgres;
 
 --
--- TOC entry 211 (class 1259 OID 17986)
+-- TOC entry 211 (class 1259 OID 18263)
 -- Name: enderecos_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -220,7 +220,7 @@ CREATE SEQUENCE public.enderecos_id_seq
 ALTER TABLE public.enderecos_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3444 (class 0 OID 0)
+-- TOC entry 3479 (class 0 OID 0)
 -- Dependencies: 211
 -- Name: enderecos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -229,7 +229,7 @@ ALTER SEQUENCE public.enderecos_id_seq OWNED BY public.enderecos.id;
 
 
 --
--- TOC entry 218 (class 1259 OID 18030)
+-- TOC entry 218 (class 1259 OID 18307)
 -- Name: nota_fiscal; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -245,7 +245,7 @@ CREATE TABLE public.nota_fiscal (
 ALTER TABLE public.nota_fiscal OWNER TO postgres;
 
 --
--- TOC entry 217 (class 1259 OID 18029)
+-- TOC entry 217 (class 1259 OID 18306)
 -- Name: nota_fiscal_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -261,7 +261,7 @@ CREATE SEQUENCE public.nota_fiscal_id_seq
 ALTER TABLE public.nota_fiscal_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3445 (class 0 OID 0)
+-- TOC entry 3480 (class 0 OID 0)
 -- Dependencies: 217
 -- Name: nota_fiscal_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -270,7 +270,7 @@ ALTER SEQUENCE public.nota_fiscal_id_seq OWNED BY public.nota_fiscal.id;
 
 
 --
--- TOC entry 224 (class 1259 OID 18061)
+-- TOC entry 224 (class 1259 OID 18356)
 -- Name: nota_fiscal_roupas; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -286,7 +286,7 @@ CREATE TABLE public.nota_fiscal_roupas (
 ALTER TABLE public.nota_fiscal_roupas OWNER TO postgres;
 
 --
--- TOC entry 223 (class 1259 OID 18060)
+-- TOC entry 223 (class 1259 OID 18355)
 -- Name: nota_fiscal_roupas_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -302,7 +302,7 @@ CREATE SEQUENCE public.nota_fiscal_roupas_id_seq
 ALTER TABLE public.nota_fiscal_roupas_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3446 (class 0 OID 0)
+-- TOC entry 3481 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: nota_fiscal_roupas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -311,7 +311,7 @@ ALTER SEQUENCE public.nota_fiscal_roupas_id_seq OWNED BY public.nota_fiscal_roup
 
 
 --
--- TOC entry 222 (class 1259 OID 18049)
+-- TOC entry 222 (class 1259 OID 18326)
 -- Name: roupas; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -321,8 +321,9 @@ CREATE TABLE public.roupas (
     cor character varying(40) NOT NULL,
     tamanho character varying(20),
     marca character varying(50),
-    preco_venda numeric(15,2) NOT NULL,
+    preco_venda numeric(15,2),
     preco_compra numeric(15,2) NOT NULL,
+    lucro_porcentagem numeric(10,4) NOT NULL,
     id_categoria integer NOT NULL
 );
 
@@ -330,7 +331,7 @@ CREATE TABLE public.roupas (
 ALTER TABLE public.roupas OWNER TO postgres;
 
 --
--- TOC entry 221 (class 1259 OID 18048)
+-- TOC entry 221 (class 1259 OID 18325)
 -- Name: roupas_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
 --
 
@@ -346,7 +347,7 @@ CREATE SEQUENCE public.roupas_id_seq
 ALTER TABLE public.roupas_id_seq OWNER TO postgres;
 
 --
--- TOC entry 3447 (class 0 OID 0)
+-- TOC entry 3482 (class 0 OID 0)
 -- Dependencies: 221
 -- Name: roupas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
 --
@@ -355,7 +356,125 @@ ALTER SEQUENCE public.roupas_id_seq OWNED BY public.roupas.id;
 
 
 --
--- TOC entry 3248 (class 2604 OID 18021)
+-- TOC entry 230 (class 1259 OID 18509)
+-- Name: vw_aniversariantes; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_aniversariantes AS
+ SELECT c.nome,
+    c.nascimento
+   FROM public.clientes c
+  WHERE ((EXTRACT(day FROM (c.nascimento + 8)) = EXTRACT(day FROM now())) AND (EXTRACT(month FROM c.nascimento) = EXTRACT(month FROM now())));
+
+
+ALTER TABLE public.vw_aniversariantes OWNER TO postgres;
+
+--
+-- TOC entry 228 (class 1259 OID 18501)
+-- Name: vw_clientes_cartoes; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_clientes_cartoes AS
+ SELECT c.nome,
+    cl.nome_titular AS nome_cartao,
+    cl.numero,
+    cl.cvv,
+    cl.vencimento
+   FROM (public.clientes c
+     JOIN public.cartao_loja cl ON ((c.id = cl.id_cliente)));
+
+
+ALTER TABLE public.vw_clientes_cartoes OWNER TO postgres;
+
+--
+-- TOC entry 227 (class 1259 OID 18496)
+-- Name: vw_enderecos_clientes; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_enderecos_clientes AS
+ SELECT c.nome,
+    e.endereco,
+    e.bairro,
+    e.numero,
+    e.cep,
+    cd.nome AS cidade
+   FROM ((public.enderecos e
+     JOIN public.clientes c ON ((e.id = c.id_endereco)))
+     JOIN public.cidades cd ON ((e.id_cidade = cd.id)))
+  ORDER BY c.nome;
+
+
+ALTER TABLE public.vw_enderecos_clientes OWNER TO postgres;
+
+--
+-- TOC entry 231 (class 1259 OID 18513)
+-- Name: vw_listar_roupas; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_listar_roupas AS
+ SELECT r.id,
+    r.nome,
+    r.cor,
+    r.tamanho,
+    r.marca,
+    c.nome AS categoria
+   FROM (public.roupas r
+     JOIN public.categorias c ON ((r.id_categoria = c.id)));
+
+
+ALTER TABLE public.vw_listar_roupas OWNER TO postgres;
+
+--
+-- TOC entry 229 (class 1259 OID 18505)
+-- Name: vw_notas_fiscais; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_notas_fiscais AS
+ SELECT nf.valor,
+    nf.emissao,
+    nf.numero,
+    c.nome
+   FROM (public.nota_fiscal nf
+     JOIN public.clientes c ON ((nf.id_cliente = c.id)))
+  ORDER BY nf.emissao;
+
+
+ALTER TABLE public.vw_notas_fiscais OWNER TO postgres;
+
+--
+-- TOC entry 225 (class 1259 OID 18486)
+-- Name: vw_produtos_vendidos; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_produtos_vendidos AS
+ SELECT r.nome AS produto,
+    c.nome AS categoria,
+    count(nfr.id) AS quantidade
+   FROM ((public.nota_fiscal_roupas nfr
+     JOIN public.roupas r ON ((nfr.id_roupa = r.id)))
+     JOIN public.categorias c ON ((r.id_categoria = c.id)))
+  GROUP BY r.nome, c.nome, r.preco_venda;
+
+
+ALTER TABLE public.vw_produtos_vendidos OWNER TO postgres;
+
+--
+-- TOC entry 226 (class 1259 OID 18491)
+-- Name: vw_produtos_vendidos_lucro; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW public.vw_produtos_vendidos_lucro AS
+ SELECT r.nome,
+    ((r.preco_venda - r.preco_compra) * (count(nfr.id))::numeric) AS lucro
+   FROM (public.roupas r
+     JOIN public.nota_fiscal_roupas nfr ON ((r.id = nfr.id_roupa)))
+  GROUP BY r.nome, r.preco_venda, r.preco_compra;
+
+
+ALTER TABLE public.vw_produtos_vendidos_lucro OWNER TO postgres;
+
+--
+-- TOC entry 3276 (class 2604 OID 18298)
 -- Name: cartao_loja id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -363,7 +482,7 @@ ALTER TABLE ONLY public.cartao_loja ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
--- TOC entry 3250 (class 2604 OID 18045)
+-- TOC entry 3278 (class 2604 OID 18322)
 -- Name: categorias id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -371,7 +490,7 @@ ALTER TABLE ONLY public.categorias ALTER COLUMN id SET DEFAULT nextval('public.c
 
 
 --
--- TOC entry 3244 (class 2604 OID 17983)
+-- TOC entry 3272 (class 2604 OID 18260)
 -- Name: cidades id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -379,7 +498,7 @@ ALTER TABLE ONLY public.cidades ALTER COLUMN id SET DEFAULT nextval('public.cida
 
 
 --
--- TOC entry 3246 (class 2604 OID 18004)
+-- TOC entry 3274 (class 2604 OID 18281)
 -- Name: clientes id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -387,7 +506,7 @@ ALTER TABLE ONLY public.clientes ALTER COLUMN id SET DEFAULT nextval('public.cli
 
 
 --
--- TOC entry 3245 (class 2604 OID 17990)
+-- TOC entry 3273 (class 2604 OID 18267)
 -- Name: enderecos id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -395,7 +514,7 @@ ALTER TABLE ONLY public.enderecos ALTER COLUMN id SET DEFAULT nextval('public.en
 
 
 --
--- TOC entry 3249 (class 2604 OID 18033)
+-- TOC entry 3277 (class 2604 OID 18310)
 -- Name: nota_fiscal id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -403,7 +522,7 @@ ALTER TABLE ONLY public.nota_fiscal ALTER COLUMN id SET DEFAULT nextval('public.
 
 
 --
--- TOC entry 3252 (class 2604 OID 18064)
+-- TOC entry 3280 (class 2604 OID 18359)
 -- Name: nota_fiscal_roupas id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -411,7 +530,7 @@ ALTER TABLE ONLY public.nota_fiscal_roupas ALTER COLUMN id SET DEFAULT nextval('
 
 
 --
--- TOC entry 3251 (class 2604 OID 18052)
+-- TOC entry 3279 (class 2604 OID 18329)
 -- Name: roupas id; Type: DEFAULT; Schema: public; Owner: postgres
 --
 
@@ -419,7 +538,7 @@ ALTER TABLE ONLY public.roupas ALTER COLUMN id SET DEFAULT nextval('public.roupa
 
 
 --
--- TOC entry 3426 (class 0 OID 18018)
+-- TOC entry 3461 (class 0 OID 18295)
 -- Dependencies: 216
 -- Data for Name: cartao_loja; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -437,21 +556,32 @@ INSERT INTO public.cartao_loja VALUES (10, 'Breno Roberto Cauê Moreira', '3552 
 
 
 --
--- TOC entry 3430 (class 0 OID 18042)
+-- TOC entry 3465 (class 0 OID 18319)
 -- Dependencies: 220
 -- Data for Name: categorias; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.categorias VALUES (1, 'Camisas');
-INSERT INTO public.categorias VALUES (2, 'Camisetas');
-INSERT INTO public.categorias VALUES (3, 'Tênis');
-INSERT INTO public.categorias VALUES (4, 'Calças');
-INSERT INTO public.categorias VALUES (5, 'Sapatos');
-INSERT INTO public.categorias VALUES (6, 'Meias');
+INSERT INTO public.categorias VALUES (1, 'Chapéu');
+INSERT INTO public.categorias VALUES (2, 'Sapatos');
+INSERT INTO public.categorias VALUES (3, 'Meias');
+INSERT INTO public.categorias VALUES (4, 'Pijama');
+INSERT INTO public.categorias VALUES (5, 'Sandálias');
+INSERT INTO public.categorias VALUES (6, 'Saia');
+INSERT INTO public.categorias VALUES (7, 'Calça jeans');
+INSERT INTO public.categorias VALUES (8, 'Roupão');
+INSERT INTO public.categorias VALUES (9, 'Gravata');
+INSERT INTO public.categorias VALUES (10, 'Bermuda');
+INSERT INTO public.categorias VALUES (11, 'Roupas de baixo');
+INSERT INTO public.categorias VALUES (12, 'Camiseta');
+INSERT INTO public.categorias VALUES (13, 'Vestido');
+INSERT INTO public.categorias VALUES (14, 'Calça');
+INSERT INTO public.categorias VALUES (15, 'Jaqueta');
+INSERT INTO public.categorias VALUES (16, 'Botas');
+INSERT INTO public.categorias VALUES (17, 'Blusa');
 
 
 --
--- TOC entry 3420 (class 0 OID 17980)
+-- TOC entry 3455 (class 0 OID 18257)
 -- Dependencies: 210
 -- Data for Name: cidades; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -509,7 +639,7 @@ INSERT INTO public.cidades VALUES (50, 'Natal', 'RN');
 
 
 --
--- TOC entry 3424 (class 0 OID 18001)
+-- TOC entry 3459 (class 0 OID 18278)
 -- Dependencies: 214
 -- Data for Name: clientes; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -577,7 +707,7 @@ INSERT INTO public.clientes VALUES (60, 'Henrique Luiz Rodrigo Lopes', '251.209.
 
 
 --
--- TOC entry 3422 (class 0 OID 17987)
+-- TOC entry 3457 (class 0 OID 18264)
 -- Dependencies: 212
 -- Data for Name: enderecos; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -635,7 +765,7 @@ INSERT INTO public.enderecos VALUES (50, '29194-168', 'Rua 15 de Novembro', NULL
 
 
 --
--- TOC entry 3428 (class 0 OID 18030)
+-- TOC entry 3463 (class 0 OID 18307)
 -- Dependencies: 218
 -- Data for Name: nota_fiscal; Type: TABLE DATA; Schema: public; Owner: postgres
 --
@@ -668,84 +798,103 @@ INSERT INTO public.nota_fiscal VALUES (25, 177.42, '2024-05-02', '865348', 4);
 
 
 --
--- TOC entry 3434 (class 0 OID 18061)
+-- TOC entry 3469 (class 0 OID 18356)
 -- Dependencies: 224
 -- Data for Name: nota_fiscal_roupas; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.nota_fiscal_roupas VALUES (1, 2, 300.00, 1, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (2, 1, 45.20, 9, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (3, 2, 90.20, 1, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (4, 4, 190.00, 6, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (5, 1, 30.10, 2, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (6, 3, 50.40, 7, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (7, 1, 90.50, 4, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (8, 1, 69.65, 5, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (9, 1, 79.95, 7, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (10, 5, 83.81, 22, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (11, 3, 84.52, 3, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (12, 1, 68.49, 22, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (13, 1, 102.36, 9, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (14, 3, 73.50, 12, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (15, 2, 57.11, 2, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (16, 5, 107.05, 4, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (17, 3, 25.74, 3, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (18, 2, 17.94, 9, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (19, 3, 26.51, 12, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (20, 2, 27.66, 25, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (21, 4, 24.97, 24, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (22, 4, 20.33, 20, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (23, 4, 69.86, 20, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (24, 3, 35.75, 5, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (25, 1, 55.26, 9, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (26, 4, 15.83, 2, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (27, 4, 37.69, 2, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (28, 3, 4.37, 12, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (29, 1, 100.96, 8, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (30, 2, 55.33, 18, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (31, 5, 112.28, 18, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (32, 5, 19.30, 20, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (33, 5, 38.70, 11, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (34, 2, 30.67, 3, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (35, 1, 97.74, 15, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (36, 1, 32.76, 15, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (37, 5, 67.38, 11, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (38, 2, 65.81, 23, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (39, 1, 61.64, 3, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (40, 4, 79.72, 10, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (41, 2, 91.97, 13, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (42, 1, 96.99, 6, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (43, 3, 26.81, 5, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (44, 5, 63.34, 12, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (45, 3, 26.44, 5, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (46, 2, 50.35, 12, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (47, 5, 106.88, 10, 2);
-INSERT INTO public.nota_fiscal_roupas VALUES (48, 3, 41.44, 12, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (49, 4, 43.73, 18, 1);
-INSERT INTO public.nota_fiscal_roupas VALUES (50, 1, 18.79, 22, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (51, 3, 84.08, 24, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (52, 1, 99.35, 2, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (53, 2, 25.29, 12, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (54, 5, 93.70, 2, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (55, 2, 95.44, 20, 3);
-INSERT INTO public.nota_fiscal_roupas VALUES (56, 3, 108.48, 18, 4);
-INSERT INTO public.nota_fiscal_roupas VALUES (57, 5, 22.19, 11, 1);
+INSERT INTO public.nota_fiscal_roupas VALUES (1, 1, 69.65, 5, 16);
+INSERT INTO public.nota_fiscal_roupas VALUES (2, 1, 79.95, 7, 2);
+INSERT INTO public.nota_fiscal_roupas VALUES (3, 5, 83.81, 22, 26);
+INSERT INTO public.nota_fiscal_roupas VALUES (4, 3, 84.52, 3, 26);
+INSERT INTO public.nota_fiscal_roupas VALUES (5, 1, 68.49, 22, 27);
+INSERT INTO public.nota_fiscal_roupas VALUES (6, 1, 102.36, 9, 19);
+INSERT INTO public.nota_fiscal_roupas VALUES (7, 3, 73.50, 12, 23);
+INSERT INTO public.nota_fiscal_roupas VALUES (8, 2, 57.11, 2, 29);
+INSERT INTO public.nota_fiscal_roupas VALUES (9, 5, 107.05, 4, 23);
+INSERT INTO public.nota_fiscal_roupas VALUES (10, 3, 25.74, 3, 1);
+INSERT INTO public.nota_fiscal_roupas VALUES (11, 2, 17.94, 9, 8);
+INSERT INTO public.nota_fiscal_roupas VALUES (12, 3, 26.51, 12, 12);
+INSERT INTO public.nota_fiscal_roupas VALUES (13, 2, 27.66, 25, 4);
+INSERT INTO public.nota_fiscal_roupas VALUES (14, 4, 24.97, 24, 15);
+INSERT INTO public.nota_fiscal_roupas VALUES (15, 4, 20.33, 20, 5);
+INSERT INTO public.nota_fiscal_roupas VALUES (16, 4, 69.86, 20, 25);
+INSERT INTO public.nota_fiscal_roupas VALUES (17, 3, 35.75, 5, 8);
+INSERT INTO public.nota_fiscal_roupas VALUES (18, 1, 55.26, 9, 17);
+INSERT INTO public.nota_fiscal_roupas VALUES (19, 4, 15.83, 2, 5);
+INSERT INTO public.nota_fiscal_roupas VALUES (20, 4, 37.69, 2, 11);
+INSERT INTO public.nota_fiscal_roupas VALUES (21, 3, 4.37, 12, 6);
+INSERT INTO public.nota_fiscal_roupas VALUES (22, 1, 100.96, 8, 2);
+INSERT INTO public.nota_fiscal_roupas VALUES (23, 2, 55.33, 18, 8);
+INSERT INTO public.nota_fiscal_roupas VALUES (24, 5, 112.28, 18, 9);
+INSERT INTO public.nota_fiscal_roupas VALUES (25, 5, 19.30, 20, 6);
+INSERT INTO public.nota_fiscal_roupas VALUES (26, 5, 38.70, 11, 25);
+INSERT INTO public.nota_fiscal_roupas VALUES (27, 2, 30.67, 3, 29);
+INSERT INTO public.nota_fiscal_roupas VALUES (28, 1, 97.74, 15, 22);
+INSERT INTO public.nota_fiscal_roupas VALUES (29, 1, 32.76, 15, 23);
+INSERT INTO public.nota_fiscal_roupas VALUES (30, 5, 67.38, 11, 22);
+INSERT INTO public.nota_fiscal_roupas VALUES (31, 2, 65.81, 23, 8);
+INSERT INTO public.nota_fiscal_roupas VALUES (32, 1, 61.64, 3, 3);
+INSERT INTO public.nota_fiscal_roupas VALUES (33, 4, 79.72, 10, 5);
+INSERT INTO public.nota_fiscal_roupas VALUES (34, 2, 91.97, 13, 13);
+INSERT INTO public.nota_fiscal_roupas VALUES (35, 1, 96.99, 6, 9);
+INSERT INTO public.nota_fiscal_roupas VALUES (36, 3, 26.81, 5, 25);
+INSERT INTO public.nota_fiscal_roupas VALUES (37, 5, 63.34, 12, 16);
+INSERT INTO public.nota_fiscal_roupas VALUES (38, 3, 26.44, 5, 25);
+INSERT INTO public.nota_fiscal_roupas VALUES (39, 2, 50.35, 12, 11);
+INSERT INTO public.nota_fiscal_roupas VALUES (40, 5, 106.88, 10, 23);
+INSERT INTO public.nota_fiscal_roupas VALUES (41, 3, 41.44, 12, 17);
+INSERT INTO public.nota_fiscal_roupas VALUES (42, 4, 43.73, 18, 13);
+INSERT INTO public.nota_fiscal_roupas VALUES (43, 1, 18.79, 22, 2);
+INSERT INTO public.nota_fiscal_roupas VALUES (44, 3, 84.08, 24, 28);
+INSERT INTO public.nota_fiscal_roupas VALUES (45, 1, 99.35, 2, 4);
+INSERT INTO public.nota_fiscal_roupas VALUES (46, 2, 25.29, 12, 5);
+INSERT INTO public.nota_fiscal_roupas VALUES (47, 5, 93.70, 2, 9);
+INSERT INTO public.nota_fiscal_roupas VALUES (48, 2, 95.44, 20, 14);
+INSERT INTO public.nota_fiscal_roupas VALUES (49, 3, 108.48, 18, 2);
+INSERT INTO public.nota_fiscal_roupas VALUES (50, 5, 22.19, 11, 14);
 
 
 --
--- TOC entry 3432 (class 0 OID 18049)
+-- TOC entry 3467 (class 0 OID 18326)
 -- Dependencies: 222
 -- Data for Name: roupas; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.roupas VALUES (1, 'Camiseta Masculina', 'Preto', 'G', 'Nike', 130.00, 90.00, 2);
-INSERT INTO public.roupas VALUES (2, 'Tenis A', 'Vermelho', '42', 'Nike', 180.00, 120.00, 3);
-INSERT INTO public.roupas VALUES (3, 'Camisa V', 'Azul', 'M', 'Gutti', 200.00, 150.00, 1);
-INSERT INTO public.roupas VALUES (4, 'Meia E', 'Preto', '43', 'Nike', 40.00, 25.00, 6);
+INSERT INTO public.roupas VALUES (1, 'Chapéu X', 'Azul', '40', 'Adidas', 272.43, 223.30, 22.0000, 13);
+INSERT INTO public.roupas VALUES (2, 'Sapatos G', 'Preto', 'GG', 'Nike', 165.08, 125.06, 32.0000, 15);
+INSERT INTO public.roupas VALUES (3, 'Meias K', 'Vermelho', 'P', 'Gucci', 318.92, 268.00, 19.0000, 8);
+INSERT INTO public.roupas VALUES (4, 'Pijama F', 'Laranja', '39', 'Zara', 211.19, 180.50, 17.0000, 17);
+INSERT INTO public.roupas VALUES (5, 'Sandálias V', 'Amarelo', '43', 'H&M', 0.19, 0.15, 28.0000, 13);
+INSERT INTO public.roupas VALUES (6, 'Saia J', 'Rosa', '38', 'Louis', 464.50, 377.64, 23.0000, 8);
+INSERT INTO public.roupas VALUES (7, 'Calça jeans N', 'Verde', '44', 'Uniqlo', 483.17, 380.45, 27.0000, 10);
+INSERT INTO public.roupas VALUES (8, 'Roupão H', 'Cinza', 'G', 'Hermès', 424.88, 287.08, 48.0000, 13);
+INSERT INTO public.roupas VALUES (9, 'Gravata C', 'Branco', 'XG', 'Rolex', 201.42, 169.26, 19.0000, 16);
+INSERT INTO public.roupas VALUES (10, 'Bermuda A', 'Laranja', '42', 'Cartier', 155.37, 120.44, 29.0000, 15);
+INSERT INTO public.roupas VALUES (11, 'Roupas de baixo L', 'Amarelo', 'PP', 'H&M', 88.52, 74.39, 19.0000, 5);
+INSERT INTO public.roupas VALUES (12, 'Camiseta Y', 'Branco', '41', 'Zara', 394.53, 313.12, 26.0000, 10);
+INSERT INTO public.roupas VALUES (13, 'Vestido I', 'Rosa', 'M', 'Nike', 90.41, 72.91, 24.0000, 15);
+INSERT INTO public.roupas VALUES (14, 'Calça O', 'Vermelho', 'PP', 'Gucci', 277.67, 216.93, 28.0000, 13);
+INSERT INTO public.roupas VALUES (15, 'Jaqueta E', 'Preto', '42', 'Uniqlo', 321.16, 276.86, 16.0000, 15);
+INSERT INTO public.roupas VALUES (16, 'Botas M', 'Azul', 'M', 'Hermès', 309.19, 210.33, 47.0000, 7);
+INSERT INTO public.roupas VALUES (17, 'Blusa B', 'Verde', 'P', 'Adidas', 278.77, 230.39, 21.0000, 14);
+INSERT INTO public.roupas VALUES (18, 'Sapatos F', 'Cinza', '39', 'Louis', 429.56, 290.24, 48.0000, 6);
+INSERT INTO public.roupas VALUES (19, 'Vestido X', 'Branco', 'XG', 'Rolex', 164.43, 121.80, 35.0000, 1);
+INSERT INTO public.roupas VALUES (20, 'Sandálias G', 'Amarelo', '40', 'Cartier', 406.49, 298.89, 36.0000, 5);
+INSERT INTO public.roupas VALUES (21, 'Calça jeans J', 'Cinza', '44', 'Zara', 60.06, 43.84, 37.0000, 15);
+INSERT INTO public.roupas VALUES (22, 'Meias H', 'Vermelho', '43', 'Rolex', 233.90, 173.26, 35.0000, 13);
+INSERT INTO public.roupas VALUES (23, 'Roupas de baixo C', 'Rosa', '41', 'Uniqlo', 415.71, 335.25, 24.0000, 9);
+INSERT INTO public.roupas VALUES (24, 'Saia A', 'Azul', 'GG', 'Nike', 250.29, 201.85, 24.0000, 9);
+INSERT INTO public.roupas VALUES (25, 'Gravata Y', 'Laranja', '38', 'Cartier', 368.99, 290.54, 27.0000, 2);
+INSERT INTO public.roupas VALUES (26, 'Roupão I', 'Preto', 'G', 'Hermès', 210.03, 155.58, 35.0000, 16);
+INSERT INTO public.roupas VALUES (27, 'Chapéu B', 'Verde', '38', 'Louis', 457.77, 372.17, 23.0000, 2);
+INSERT INTO public.roupas VALUES (28, 'Pijama K', 'Azul', 'G', 'Gucci', 49.08, 37.18, 32.0000, 5);
+INSERT INTO public.roupas VALUES (29, 'Bermuda E', 'Vermelho', '42', 'H&M', 47.01, 32.42, 45.0000, 2);
+INSERT INTO public.roupas VALUES (30, 'Camiseta V', 'Preto', 'GG', 'Adidas', 75.46, 57.17, 32.0000, 9);
 
 
 --
--- TOC entry 3448 (class 0 OID 0)
+-- TOC entry 3483 (class 0 OID 0)
 -- Dependencies: 215
 -- Name: cartao_loja_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -754,16 +903,16 @@ SELECT pg_catalog.setval('public.cartao_loja_id_seq', 10, true);
 
 
 --
--- TOC entry 3449 (class 0 OID 0)
+-- TOC entry 3484 (class 0 OID 0)
 -- Dependencies: 219
 -- Name: categorias_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.categorias_id_seq', 6, true);
+SELECT pg_catalog.setval('public.categorias_id_seq', 17, true);
 
 
 --
--- TOC entry 3450 (class 0 OID 0)
+-- TOC entry 3485 (class 0 OID 0)
 -- Dependencies: 209
 -- Name: cidades_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -772,7 +921,7 @@ SELECT pg_catalog.setval('public.cidades_id_seq', 50, true);
 
 
 --
--- TOC entry 3451 (class 0 OID 0)
+-- TOC entry 3486 (class 0 OID 0)
 -- Dependencies: 213
 -- Name: clientes_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -781,7 +930,7 @@ SELECT pg_catalog.setval('public.clientes_id_seq', 60, true);
 
 
 --
--- TOC entry 3452 (class 0 OID 0)
+-- TOC entry 3487 (class 0 OID 0)
 -- Dependencies: 211
 -- Name: enderecos_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -790,7 +939,7 @@ SELECT pg_catalog.setval('public.enderecos_id_seq', 50, true);
 
 
 --
--- TOC entry 3453 (class 0 OID 0)
+-- TOC entry 3488 (class 0 OID 0)
 -- Dependencies: 217
 -- Name: nota_fiscal_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
@@ -799,25 +948,25 @@ SELECT pg_catalog.setval('public.nota_fiscal_id_seq', 25, true);
 
 
 --
--- TOC entry 3454 (class 0 OID 0)
+-- TOC entry 3489 (class 0 OID 0)
 -- Dependencies: 223
 -- Name: nota_fiscal_roupas_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.nota_fiscal_roupas_id_seq', 57, true);
+SELECT pg_catalog.setval('public.nota_fiscal_roupas_id_seq', 50, true);
 
 
 --
--- TOC entry 3455 (class 0 OID 0)
+-- TOC entry 3490 (class 0 OID 0)
 -- Dependencies: 221
 -- Name: roupas_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.roupas_id_seq', 4, true);
+SELECT pg_catalog.setval('public.roupas_id_seq', 32, true);
 
 
 --
--- TOC entry 3264 (class 2606 OID 18023)
+-- TOC entry 3292 (class 2606 OID 18300)
 -- Name: cartao_loja cartao_loja_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -826,7 +975,7 @@ ALTER TABLE ONLY public.cartao_loja
 
 
 --
--- TOC entry 3268 (class 2606 OID 18047)
+-- TOC entry 3296 (class 2606 OID 18324)
 -- Name: categorias categorias_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -835,7 +984,7 @@ ALTER TABLE ONLY public.categorias
 
 
 --
--- TOC entry 3254 (class 2606 OID 17985)
+-- TOC entry 3282 (class 2606 OID 18262)
 -- Name: cidades cidades_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -844,7 +993,7 @@ ALTER TABLE ONLY public.cidades
 
 
 --
--- TOC entry 3258 (class 2606 OID 18009)
+-- TOC entry 3286 (class 2606 OID 18286)
 -- Name: clientes clientes_cpf_key; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -853,7 +1002,7 @@ ALTER TABLE ONLY public.clientes
 
 
 --
--- TOC entry 3260 (class 2606 OID 18011)
+-- TOC entry 3288 (class 2606 OID 18288)
 -- Name: clientes clientes_email_key; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -862,7 +1011,7 @@ ALTER TABLE ONLY public.clientes
 
 
 --
--- TOC entry 3262 (class 2606 OID 18007)
+-- TOC entry 3290 (class 2606 OID 18284)
 -- Name: clientes clientes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -871,7 +1020,7 @@ ALTER TABLE ONLY public.clientes
 
 
 --
--- TOC entry 3256 (class 2606 OID 17994)
+-- TOC entry 3284 (class 2606 OID 18271)
 -- Name: enderecos enderecos_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -880,7 +1029,7 @@ ALTER TABLE ONLY public.enderecos
 
 
 --
--- TOC entry 3266 (class 2606 OID 18035)
+-- TOC entry 3294 (class 2606 OID 18312)
 -- Name: nota_fiscal nota_fiscal_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -889,7 +1038,7 @@ ALTER TABLE ONLY public.nota_fiscal
 
 
 --
--- TOC entry 3272 (class 2606 OID 18066)
+-- TOC entry 3300 (class 2606 OID 18361)
 -- Name: nota_fiscal_roupas nota_fiscal_roupas_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -898,7 +1047,7 @@ ALTER TABLE ONLY public.nota_fiscal_roupas
 
 
 --
--- TOC entry 3270 (class 2606 OID 18054)
+-- TOC entry 3298 (class 2606 OID 18331)
 -- Name: roupas roupas_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -907,7 +1056,7 @@ ALTER TABLE ONLY public.roupas
 
 
 --
--- TOC entry 3277 (class 2606 OID 18055)
+-- TOC entry 3305 (class 2606 OID 18332)
 -- Name: roupas fk_id_categoria_to_roupas; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -916,7 +1065,7 @@ ALTER TABLE ONLY public.roupas
 
 
 --
--- TOC entry 3273 (class 2606 OID 17995)
+-- TOC entry 3301 (class 2606 OID 18272)
 -- Name: enderecos fk_id_cidade_to_enderecos; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -925,7 +1074,7 @@ ALTER TABLE ONLY public.enderecos
 
 
 --
--- TOC entry 3275 (class 2606 OID 18024)
+-- TOC entry 3303 (class 2606 OID 18301)
 -- Name: cartao_loja fk_id_cliente_to_cartao_loja; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -934,7 +1083,7 @@ ALTER TABLE ONLY public.cartao_loja
 
 
 --
--- TOC entry 3276 (class 2606 OID 18036)
+-- TOC entry 3304 (class 2606 OID 18313)
 -- Name: nota_fiscal fk_id_cliente_to_nota_fiscal; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -943,7 +1092,7 @@ ALTER TABLE ONLY public.nota_fiscal
 
 
 --
--- TOC entry 3274 (class 2606 OID 18012)
+-- TOC entry 3302 (class 2606 OID 18289)
 -- Name: clientes fk_id_endereco_to_clientes; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -952,7 +1101,7 @@ ALTER TABLE ONLY public.clientes
 
 
 --
--- TOC entry 3278 (class 2606 OID 18067)
+-- TOC entry 3306 (class 2606 OID 18362)
 -- Name: nota_fiscal_roupas fk_id_nota_fiscal_to_nota_fiscal_roupas; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -961,7 +1110,7 @@ ALTER TABLE ONLY public.nota_fiscal_roupas
 
 
 --
--- TOC entry 3279 (class 2606 OID 18072)
+-- TOC entry 3307 (class 2606 OID 18367)
 -- Name: nota_fiscal_roupas fk_id_roupa_to_nota_fiscal_roupas; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -969,7 +1118,7 @@ ALTER TABLE ONLY public.nota_fiscal_roupas
     ADD CONSTRAINT fk_id_roupa_to_nota_fiscal_roupas FOREIGN KEY (id_roupa) REFERENCES public.roupas(id);
 
 
--- Completed on 2022-06-30 14:24:20 -03
+-- Completed on 2022-07-01 14:42:18 -03
 
 --
 -- PostgreSQL database dump complete

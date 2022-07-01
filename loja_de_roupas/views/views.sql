@@ -95,3 +95,4 @@ drop view vw_enderecos_clientes;
 drop view vw_notas_fiscais;
 drop view vw_produtos_vendidos;
 drop view vw_produtos_vendidos_lucro;
+drop vw_listar_roupas;
